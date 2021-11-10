@@ -32,16 +32,16 @@ li {
 }
 
 ol {
-    top: 0;
     width: 100%;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-left: 0%;
+    padding: 0%;
+    font-size: 1, 8vw;
 }
 
 #escuderias {
     background-color: red;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 1px;
     background-color: red;
     border-radius: 5px;
@@ -54,9 +54,9 @@ ol {
 }
 
 li {
-    text-decoration: orange;
-    border-bottom: 10%;
-    border-top: 10%;
+    color: orange;
+    margin-bottom: 2%;
+    margin-top: 5;
 }
 
 h3 {
@@ -67,6 +67,9 @@ h3 {
 
 #gifs {
     width: 50%;
+    background-attachment: fixed;
+    padding-right: 20%;
+    padding: 20%;
 }
 
 img {
@@ -75,4 +78,8 @@ img {
     padding-left: 10%;
     padding-right: 10%;
     background-attachment: fixed;
+}
+
+ul {
+    background-color: yellowgreen;
 }
